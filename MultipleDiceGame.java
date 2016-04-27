@@ -13,6 +13,7 @@ public class MultipleDiceGame {
     // Prompt user to enter how many dice they want to roll.
 
         System.out.print("How many dice do you want to roll? ");
+        // Good, but please consider moving the I/O (meaning Input/Output) out to the main program
             int numberOfDice = r.setNumberOfDice();
             
     // Prompt user to guess the amount of points they will roll
